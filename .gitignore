@@ -1,0 +1,52 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+
+# Database
+*.sql.backup
+*.db
+*.sqlite
+
+# Uploads & Temporary Files
+uploads/*
+!uploads/.gitkeep
+temp/*
+!temp/.gitkeep
+tmp/*
+!tmp/.gitkeep
+
+# Cache
+cache/*
+!cache/.gitkeep
+
+# Configuration (sensitive)
+config/database.php
+config/local.php
+.env
+
+# Dependencies (if using Composer)
+vendor/
+composer.lock
+
+# Session files
+sessions/*
+!sessions/.gitkeep
+
+# Backups
+backups/*
+!backups/.gitkeep
